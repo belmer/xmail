@@ -41,21 +41,21 @@
 14 verbose url raw git
 15 verbose url resolving [ 'https://registry.npmjs.org/', './git' ]
 16 verbose url resolved https://registry.npmjs.org/git
-17 info trying registry request attempt 1 at 22:38:10
+17 info trying registry request attempt 1 at 22:43:44
 18 verbose etag "CKR75XZQ2WZH3YFGFF3IJVSMY"
 19 http GET https://registry.npmjs.org/git
 20 http 304 https://registry.npmjs.org/git
 21 silly registry.get cb [ 304,
-21 silly registry.get   { date: 'Wed, 07 May 2014 14:38:12 GMT',
+21 silly registry.get   { date: 'Wed, 07 May 2014 14:43:46 GMT',
 21 silly registry.get     server: 'Apache',
 21 silly registry.get     via: '1.1 varnish',
-21 silly registry.get     'last-modified': 'Wed, 07 May 2014 14:38:12 GMT',
+21 silly registry.get     'last-modified': 'Wed, 07 May 2014 14:43:46 GMT',
 21 silly registry.get     'cache-control': 'max-age=1',
 21 silly registry.get     etag: '"CKR75XZQ2WZH3YFGFF3IJVSMY"',
-21 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+21 silly registry.get     'x-served-by': 'cache-sv63-SJC3',
 21 silly registry.get     'x-cache': 'MISS',
 21 silly registry.get     'x-cache-hits': '0',
-21 silly registry.get     'x-timer': 'S1399473492.234171391,VS0,VE71',
+21 silly registry.get     'x-timer': 'S1399473826.662547588,VS0,VE154',
 21 silly registry.get     vary: 'Accept',
 21 silly registry.get     'content-length': '0',
 21 silly registry.get     'keep-alive': 'timeout=10, max=50',
@@ -76,7 +76,6 @@
 32 verbose lock git@github.com:github.com:belmer/xmail.git /Users/dna-belmer/.npm/d7905976--com-github-com-belmer-xmail-git.lock
 33 verbose addRemoteGit [ 'git@github.com:github.com:belmer/xmail.git', 'master' ]
 34 verbose git clone git@github.com:github.com:belmer/xmail.git Cloning into bare repository '/Users/dna-belmer/.npm/_git-remotes/git-github-com-github-com-belmer-xmail-git-d7905976'...
-34 verbose git clone git@github.com:github.com:belmer/xmail.git Warning: Permanently added the RSA host key for IP address '192.30.252.131' to the list of known hosts.
 34 verbose git clone git@github.com:github.com:belmer/xmail.git Permission denied (publickey).
 34 verbose git clone git@github.com:github.com:belmer/xmail.git fatal: Could not read from remote repository.
 34 verbose git clone git@github.com:github.com:belmer/xmail.git

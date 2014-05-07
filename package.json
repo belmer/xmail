@@ -1,6 +1,7 @@
 {
   "name": "xmail",
   "version": "0.1.1",
+  "private": true,
   "description": "A small library providing utility method to send email",
   "main": "index.js",
   "scripts": {

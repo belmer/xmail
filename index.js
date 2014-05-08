@@ -1,18 +1,26 @@
-var email = require('emailjs');
+var email = require('emailjs'),
+  	nconf = require('nconf');
 
-module.exports={
+module.exports=
+{
 
 	SendMail:function(email_add, body, subject, email_from, email_bcc, email_cc, callback) 
 	{
-	    var server  = email.server.connect({
-	       user:    'drumbi', 
-	       password:'drumbi192', 
-	       host:    'smtp.sendgrid.net', 
-	       ssl:     false,
-	       port:    25
+		// Get mail server configuration from mail.json config
+		nconf.argv()
+		     .env()
+		     .add( 'user', {file: __dirname + '/mail.json', type: 'file'});
+
+		var server  = email.server.connect({
+	       user:    nconf.get('user'), 
+	       password:nconf.get('password'), 
+	       host:    nconf.get('host'), 
+	       ssl:     nconf.get('ssl'),
+	       port:    nconf.get('port')
 	    });
 
-	    var mail_from=(email_from)? 'email_from':'noreply@drumbi.com';
+	    var mail_from=(email_from)? email_from:nconf.get('noreply_from');
+
 		//Build Payload
 		var payLoad = 
 		{

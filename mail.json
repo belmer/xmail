@@ -1,0 +1,8 @@
+{
+	"user":"drumbi",
+	"password":"drumbi192",
+	"host":"smtp.sendgrid.net",
+	"ssl":false,
+	"port":25,
+	"noreply_from":"noreply@drumbi.com"
+}

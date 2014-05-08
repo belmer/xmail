@@ -8,7 +8,10 @@ describe('#SendMail', function() {
 
     sendmail('dna.belmer@gmail.com','Test mail','xmail test','','','',function(err,data) 
     {
-      data.should.equal('success');
+    	if(err)
+    		console.log(err);
+    	else
+      		console.log(data);
     });
 
   });

@@ -3,7 +3,7 @@ xmail
 
 A small library providing utility method to send email
 
-## Release History
+## Usage
 
 Create a file on your root application directory called mail.json. This will hold the configuration for your mail server.
 ``` 
@@ -20,7 +20,13 @@ Create a file on your root application directory called mail.json. This will hol
 That's it! Include this in your application just any other node modules.
 
 And ohh! The only method there is is "SendMail", just provide few params and that's it. Here's an example:
-```SendMail(email_to, body, subject, email_from, email_bcc, email_cc,,callbackfunction(err,response){});```
+
+```
+SendMail(email_to, body, subject, email_from, email_bcc, email_cc,callbackfunction(err,response)
+{
+
+});
+```
 
 ## Release History
 

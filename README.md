@@ -24,4 +24,4 @@ And ohh! The only method there is is "SendMail", just provide few params and tha
 
 ## Release History
 
-* 0.1.0 Initial release
+* 0.1.7 Initial release

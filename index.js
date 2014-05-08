@@ -9,7 +9,7 @@ module.exports=
 		// Get mail server configuration from mail.json config
 		nconf.argv()
 		     .env()
-		     .add( 'user', {file: __dirname + '/mail.json', type: 'file'});
+		     .add( 'user', {file:process.cwd()+'/mail.json', type: 'file'});
 
 		var server  = email.server.connect({
 	       user:    nconf.get('user'), 

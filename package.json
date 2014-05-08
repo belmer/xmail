@@ -27,7 +27,7 @@
     "mocha": "^1.18.2"
   },
   "dependencies": {
-    "emailjs": "^0.3.8"
+    "emailjs": "*"
   },
   "directories": {
     "test": "test"

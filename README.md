@@ -29,5 +29,3 @@ SendMail(email_to, body, subject, email_from, email_bcc, email_cc,callbackfuncti
 ```
 
 ## Release History
-
-* 0.1.7 Initial release

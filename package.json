@@ -6,6 +6,11 @@
   "scripts": {
     "test": "make test"
   },
+  "keywords": [
+    "simple send mail",
+    "send email",
+    "mailjs"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:belmer/xmail.git"

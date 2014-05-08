@@ -10,16 +10,9 @@
     "type": "git",
     "url": "git@github.com:belmer/xmail.git"
   },
-  "keywords": [
-    "escape",
-    "unescape",
-    "html"
-  ],
   "author": "Belmer <dna.belmer@gmail.com> (http://www.drumbi.com/)",
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/belmer/xmail/issues"
-  },
+  "bugs":"https://github.com/belmer/xmail/issues",
   "homepage": "https://github.com/belmer/xmail",
   "devDependencies": {
     "chai": "^1.9.1",
